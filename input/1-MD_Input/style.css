@@ -18,6 +18,7 @@ body{
     width: 450px;
     background: #fff;
     padding: 30px;
+    /*margin-bottom: 50px;*/
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
@@ -38,13 +39,13 @@ body{
 .input-data input:focus ~ label,
 .input-data input:valid ~ label{
     transform: translateY(-20px);
-    font-size: 15px;
+    font-size: 13px;
     color: #4158d0;
 }
 
 .wrapper .input-data label{
     position: absolute;
-    bottom: 10px;
+    bottom: 15px;
     left: 0;
     color: grey;
     pointer-event: none;
