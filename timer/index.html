@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hackathon Timer</title>
+    <script src="http://api.asilu.com/cdn/jquery.js,jquery.backstretch.min.js" type="text/javascript"></script>
+</head>
+<body>
+<font size="200" color="#f0ffff">
+    <h3 style="text-align: center">
+        <p>HACKATHON 2020</p>
+    </h3>
+</font>
+<font size="40" color="#f0f8ff">
+    <h3 style="text-align: center">
+        <label id="localTime"></label>
+    </h3>
+    <h3 style="text-align: center">
+        <label id="timeLeft"></label>
+    </h3>
+</font>
+</body>
+<script>
+    function showTime() {
+        var time = new Date();
+        var d = time.toLocaleDateString();
+        var t = time.toLocaleTimeString();
+        document.getElementById("localTime").innerHTML = "现在是：" + d + " " + t;
+    }
+
+    function countDown() {
+        var start = new Date();
+        var end = new Date(2020, 9, 25, 12);
+        var dayLeft = parseInt((end - start) / 1000 / 3600 / 24);
+        var hourLeft = parseInt((end - start) / 1000 / 3600) - 24 * dayLeft;
+        var minLeft = parseInt((end - start) / 1000 / 60) - 24 * dayLeft * 60 - hourLeft * 60;
+        var secLeft = parseInt((end - start) / 1000) - 24 * dayLeft * 3600 - hourLeft * 3600 - minLeft * 60;
+        document.getElementById("timeLeft").innerHTML = "距离比赛结束还有：" + dayLeft + "天" + hourLeft + "小时" + minLeft + "分钟" + secLeft + "秒";
+    }
+
+    setInterval(function () {
+        showTime();
+        countDown()
+    }, 1000);
+    $.backstretch([
+        'http://api.asilu.com/cdn/img/bg/444.jpg',
+        'http://api.asilu.com/cdn/img/bg/445.jpg',
+        'http://api.asilu.com/cdn/img/bg/446.jpg',
+        'http://api.asilu.com/cdn/img/bg/447.jpg',
+        'http://api.asilu.com/cdn/img/bg/448.jpg'
+    ], {
+        fade: 1000, // 动画时长
+        duration: 10000 // 切换延时
+    });
+</script>
