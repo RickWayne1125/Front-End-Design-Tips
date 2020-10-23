@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HACKATHON2020</title>
+
+    <style type="text/css">
+        @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400);
+
+        body {
+            /*background-image: url("http://api.asilu.com/cdn/img/bg/444.jpg");*/
+            color: white;
+            font: normal 12px 'Open Sans', sans-serif;
+            margin-top: 20px;
+        }
+
+        ul.countdown {
+            list-style: none;
+            /*margin: 75px 0;*/
+            padding: 30px;
+            display: block;
+            text-align: center;
+            background: #4f5861;
+            opacity:0.85;
+            margin-left: 500px;
+            margin-right: 500px;
+            /*border: #4f5861;*/
+            /*border-style:solid;*/
+            /*border-width:1px;*/
+            /*box-sizing: border-box;*/
+            border:2px solid darkslategray;
+            border-radius:30px;
+        }
+
+        ul.countdown li {
+            display: inline-block;
+        }
+
+        ul.countdown li span {
+            font-size: 80px;
+            font-weight: 300;
+            line-height: 80px;
+        }
+
+        ul.countdown li.seperator {
+            font-size: 80px;
+            line-height: 70px;
+            vertical-align: top;
+            opacity: 1;
+        }
+
+        ul.countdown li p {
+            color: #a7abb1;
+            font-size: 14px;
+        }
+
+        a {
+            color: #76949F;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .source {
+            width: 405px;
+            margin: 0 auto;
+            background: #4f5861;
+            color: #a7abb1;
+            font-weight: bold;
+            display: block;
+            white-space: pre;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            border-radius: 3px;
+        }
+
+        .btn {
+            background: #f56c4c;
+            margin: 40px auto;
+            padding: 12px;
+            display: block;
+            width: 100px;
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: bold;
+            text-decoration: none;
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+            border-radius: 2px;
+        }
+
+        .btn:hover {
+            text-decoration: none;
+            opacity: .7;
+        }
+    </style>
+
+</head>
+
+<body>
+<h1 align="center" style="margin-top:150px;font-size: 100px;font-weight: bold;">HACKATHON2020@CQU</h1>
+<ul class="countdown">
+    <p style="font-size: 30px">The game will end in:</p>
+    <li><span class="days" style="opacity: 1;font-size: 120px">00</span>
+        <p class="days_ref" style="opacity: 1;font-size: 30px">days</p>
+    </li>
+    <li class="seperator">:</li>
+    <li><span class="hours" style="opacity: 1;font-size: 120px">00</span>
+        <p class="hours_ref" style="opacity: 1;font-size: 30px">hours</p>
+    </li>
+    <li class="seperator">:</li>
+    <li><span class="minutes" style="opacity: 1;font-size: 120px">00</span>
+        <p class="minutes_ref" style="opacity: 1;font-size: 30px">minutes</p>
+    </li>
+    <li class="seperator">:</li>
+    <li><span class="seconds" style="opacity: 1;font-size: 120px">00</span>
+        <p class="seconds_ref" style="opacity: 1;font-size: 30px">seconds</p>
+    </li>
+</ul>
+</body>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.downCount.js"></script>
+<script type="text/javascript">
+    $('.countdown').downCount({
+        date: '10/25/2020 12:00:00',
+        offset: +8
+    }, function () {
+        alert('比赛结束!请停止你的奋斗行为!');
+    });
+</script>
+<script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
+<script>
+    $.backstretch([
+        '1.jpg',
+        '2.jpg',
+        '3.jpg',
+        '4.jpg',
+        '5.jpg',
+        '6.jpg',
+        '7.jpg',
+        '8.jpg',
+        '9.jpg',
+        '10.jpg'
+    ], {
+        fade: 1000,
+        duration: 60000
+    });
+</script>
+</html>

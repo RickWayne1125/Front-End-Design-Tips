@@ -20,9 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbeb45f8-ceae-405f-9e3a-e29c33d876f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Front-End-Design-Tips.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -51,7 +50,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/timer/new_timer" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Resources\github\Front-End-Design-Tips\timer\new_timer" />
+      <recent name="C:\Resources\github\Front-End-Design-Tips\timer\new_timer\js" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -64,6 +70,8 @@
       <workItem from="1596545302501" duration="732000" />
       <workItem from="1596955007418" duration="2948000" />
       <workItem from="1603438017762" duration="5976000" />
+      <workItem from="1603449440162" duration="7062000" />
+      <workItem from="1603468169061" duration="421000" />
     </task>
     <servers />
   </component>
@@ -132,6 +140,10 @@
       <screen x="0" y="0" width="1966" height="1106" />
     </state>
     <state x="485" y="197" key="SettingsEditor/0.0.1966.1106@0.0.1966.1106" timestamp="1596545717424" />
+    <state x="686" y="151" width="593" height="804" key="find.popup" timestamp="1603456514345">
+      <screen x="0" y="0" width="1966" height="1106" />
+    </state>
+    <state x="686" y="151" width="593" height="804" key="find.popup/0.0.1966.1106@0.0.1966.1106" timestamp="1603456514345" />
     <state x="1137" y="247" width="672" height="678" key="search.everywhere.popup" timestamp="1603439403891">
       <screen x="0" y="0" width="1966" height="1106" />
     </state>
